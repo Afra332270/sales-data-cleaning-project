@@ -1,0 +1,1 @@
+A data dictionary is a simple rulebook which includes includes basic description of each column. It gives an idea about what each column represents, the valid data type required for each column attribute, and the range of values that are valid for each attribute.
