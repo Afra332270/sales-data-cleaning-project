@@ -3,7 +3,7 @@ A data dictionary is a simple rulebook which includes includes basic description
 | Column | Data Type | Description | Required | Unique | Example | Constraints | Nullable | Source | Notes |
 |---|---|---|---|---|---|---|---|---|---|
 | Transaction_ID | Text | Unique identifier for each transaction | Yes | Yes | T0001 | Must be unique | No | Sales data | Primary key |
-| Customer_ID | Text | Unique identifier for each customer making the transaction | Yes | No | C0012 | Must exist in Customers table | No | Sales data | Foreign key |
+| Customer_ID | Text | Unique identifier for each customer making the transaction | Yes | No | C012 | Must exist in Customers table | No | Sales data | Foreign key |
 | Customer_Name | Text | Name of the customer | Yes | No | Rahim Ahmed | Must match Customer_ID | No | Sales data | — |
 | City | Text | Customer's city | Yes | No | Dhaka | Must match Customer_ID | No | Sales data | — |
 | Product | Text | Name of product purchased | Yes | No | Laptop | Must exist in Products table | No | Sales data | - |
