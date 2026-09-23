@@ -20,7 +20,18 @@ Two versions of the dataset are included:
 
 The files can be found in the [data folder] (data/).
 
-Description on how the clean and messy version of the dataset was created and prepared is given in ....
+## Data Dictionary
+More information on the attributes of the dataset, such as what each column represents can be found in the data_dictionary.md
+
+## Data Quality Rules
+A set of data quality rules have been defined for the dataset to follow, to identify potential issues and ensure that the dataset meets accepted standards. The rules cover criteria about completeness, uniqueness, validity, accuracy and integrity of values in the dataset. More on the rules can be found here.
+
+## Dataset Preparation
+Detailed description on how the original, clean version of the dataset (sales_clean.csv) was created and how the messy version (sales_messy.csv) was created can be found in the ... file.
+
+## Cleaning Process
+
+
 
 
 
