@@ -19,3 +19,8 @@ Two versions of the dataset are included:
 - sales_messy.csv : The messy version of the dataset.
 
 The files can be found in the [data folder] (data/).
+
+Description on how the clean and messy version of the dataset was created and prepared is given in ....
+
+
+
