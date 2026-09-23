@@ -18,4 +18,4 @@ Two versions of the dataset are included:
 - sales_clean.csv : The original, clean dataset containing no errors.
 - sales_messy.csv : The messy version of the dataset.
 
-The files can be found in the data/ folder.
+The files can be found in the [data folder] (data/).
