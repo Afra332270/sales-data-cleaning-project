@@ -29,7 +29,7 @@ A set of data quality rules have been defined for the dataset to follow, to iden
 ## Dataset Preparation
 Detailed description on how the original, clean version of the dataset (sales_clean.csv) was created and how the messy version (sales_messy.csv) was created can be found in the ... file.
 
-## Data Cleaning Process
+## Data Profiling Process
 Before starting the cleaning process, I first decide to take a systematic approach and perform data profiling on the dataset to better understand its structure, and find out if the dataset meets accepted standards (such as completeness, uniqueness, consistency, etc.). To do so, I take on some data profiling questions and try to answer them on the basis of this dataset. The questions include:
 
 ### <ins>Dataset Structure</ins>
@@ -50,7 +50,8 @@ Before starting the cleaning process, I first decide to take a systematic approa
 
 - Are there any duplicate Transaction_IDs?
 - Are there any exact duplicate Transaction_IDs?
-- Are there any duplicate Transaction_IDs with different information?
+- Are there any duplicate Transaction_IDs with conflicting information?
+- Are there any records that violate multiple data quality rules?
 
 ### <ins>Referential Integrity</ins>
 
@@ -85,13 +86,25 @@ Before starting the cleaning process, I first decide to take a systematic approa
 - Do all the categorical values follow the correct format consistently throughout the dataset?
   
 
+### <ins>Text Quality</ins>
+
+- Do all the text values follow the right constraints?
+- Are there any leading or trailing spaces in the text values?
+- Are there any capitalization issues in any of the text values?
+- Are there any spelling inconsistencies or malformed text values? 
 
 
+All the findings from the data profiling checks have been recorded in the data_quality_report.md. 
 
 
+## Data Cleaning Process
 
 
+## Validation
 
+## Tools used
+
+## Final Summary
 
 
 
