@@ -14,7 +14,7 @@ The following rules define the expected data quality requirements for our sales 
 | DQ009 | Validity | Unit_Price | Unit_Price must be a numeric value greater than or equal to 0 and must exist in the Products table. |
 | DQ010 | Validity | Product, Payment_Method | Both fields must also exist in the approved reference tables. |
 | DQ011 | Validity | Customer_Name, City | Both fields must also exist in the approved reference tables. |
-| DQ012 | Validity | Last_Updated | Last_Updated must be a valid date within the intended 2025 period. |
+| DQ012 | Validity | Last_Updated | Last_Updated must be a valid date within the intended 2025 period (between 1-1-2025 and 31-12-2025). |
 | DQ013 | Accuracy | All columns | All columns must follow the correct data type. |
 | DQ014 | Accuracy | Total_Amount | Total_Amount must equal Quantity × Unit_Price. |
 | DQ015 | Consistency | Customer_ID, Customer_Name | Each Customer_Name must consistently correspond to the correct Customer_ID |
@@ -24,7 +24,7 @@ The following rules define the expected data quality requirements for our sales 
 | DQ019 | Consistency | All columns | Data in each column should consistently follow the right constraints throughout the dataset. |
 | DQ020 | Text-Quality | Customer_Name, City, Product, Payment_Method | Text values should consistently follow the right capitalization and spelling conventions. |
 | DQ021 | Null value consistency | All columns | Values such as 'N/A', "NULL", "Unknown", "-", should be handled consistently. |
-| DQ022 | Record Integrity | All columns | There should not be any completely blank rows. |
+| DQ022 | Record Integrity | All rows | There should not be any completely blank rows. |
 | DQ023 | Multi-rule validation | All columns | Records should follow all data quality rules post cleaning. |
 | DQ024 | Timeline consistency | All columns | Data in all columns should be recent and up to date for accurate analysis. |
 
