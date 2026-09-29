@@ -21,10 +21,10 @@ Two versions of the dataset are included:
 The files can be found in the [data folder] (data/).
 
 ## Data Dictionary
-More information on the attributes of the dataset, such as what each column represents can be found in the data_dictionary.md
+More information on the attributes of the dataset, such as what each column represents can be found in the [Data Dictionary](documentation/data_dictionary.md)
 
 ## Data Quality Rules
-A set of data quality rules have been defined for the dataset to follow, to identify potential issues and ensure that the dataset meets accepted standards. The rules cover criteria about completeness, uniqueness, validity, accuracy and integrity of values in the dataset. More on the rules can be found here.
+A set of data quality rules have been defined for the dataset to follow, to identify potential issues and ensure that the dataset meets accepted standards. The rules cover criteria about completeness, uniqueness, validity, accuracy and integrity of values in the dataset. More on the rules can be found [here](documentation/data_quality_rules.md).
 
 ## Dataset Preparation
 Detailed description on how the original, clean version of the dataset (sales_clean.csv) was created and how the messy version (sales_messy.csv) was created can be found in the ... file.
@@ -94,11 +94,11 @@ Before starting the cleaning process, I first decide to take a systematic approa
 - Are there any spelling inconsistencies or malformed text values? 
 
 
-All the findings from the data profiling checks have been recorded in the data_quality_report.md. 
+All the findings from the data profiling checks have been recorded in the [Data Quality Report](documentation/data_quality_report.md). 
 
 
 ## Data Cleaning Process
-
+(brief exp about the issues and the approach used to solve them in excel. more on this in .md ...)
 
 ## Validation
 
