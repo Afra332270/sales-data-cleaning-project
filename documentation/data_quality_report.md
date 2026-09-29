@@ -4,6 +4,82 @@ below:
 
 ### Dataset structure:
 
+| Metric | Result |
+| --- | --- |
+| Rows examined | 306 |
+| Columns | 10 |
+| Expected transaction rows | 300 |
+| Date range | 2025 |
+| Reference tables | Customers, Products, Cities |
+
+## 3. Data Quality Assessment
+
+### 3.1 Completeness
+
+| Column | Missing Values | Notes |
+| --- | ---: | --- |
+| Transaction_ID | 0 | Pass |
+| Customer_ID | 0 | Pass |
+| Customer_Name | 4 | Fail |
+| City | 3 | Fail |
+| Product | 0 | Pass |
+| Quantity | 2 | Fail |
+| Unit_Price | 1 | Fail |
+| Total_Amount | 4 | Fail |
+| Payment_Method | 5 | Fail |
+| Last_Updated | 2 | Fail |
+
+
+### 3.2 Uniqueness
+
+| Column | Duplicate Values | Notes |
+| --- | ---: | --- |
+| Transaction_ID | 0 | Pass |
+| Customer_ID | 0 | Pass |
+| Customer_Name | 4 | Fail |
+| City | 3 | Fail |
+| Product | 0 | Pass |
+| Quantity | 2 | Fail |
+| Unit_Price | 1 | Fail |
+| Total_Amount | 4 | Fail |
+| Payment_Method | 5 | Fail |
+| Last_Updated | 2 | Fail |
+
+
+### 3.3 Validity
+
+| Issue | Column | Findings | Notes |
+| --- | ---: | --- | --- |
+| Incorrect data type | Transaction_ID | Pass | check |
+| Incorrect data type | Transaction_ID | Pass | check |
+| Incorrect format | Transaction_ID | Pass | check |
+| Text inconsistencies | Transaction_ID | Pass | check |
+
+
+### 3.4 Accuracy
+
+| Check | Findings | Notes | 
+| --- | ---: | --- |
+| Unit_Price>0 | Transaction_ID | Pass | 
+| Incorrect data type | Transaction_ID | Pass | 
+| Incorrect format | Transaction_ID | Pass | 
+| Text inconsistencies | Transaction_ID | Pass | 
+
+
+### 3.5 Referential integrity
+
+| Column -> Reference column/table | Findings | Notes |
+| --- | ---: | --- |
+| Incorrect data type | Transaction_ID | Pass | 
+| Incorrect data type | Transaction_ID | Pass | 
+| Incorrect format | Transaction_ID | Pass | 
+| Text inconsistencies | Transaction_ID | Pass | 
+
+
+
+
+
+
 
 | Column(s) | Rule_ID | Category | Findings | Notes |
 |---|---|---|---|---|
