@@ -6,10 +6,10 @@ below:
 
 | Metric | Result |
 | --- | --- |
-| Rows examined | 306 |
+| Rows examined | 313 |
+| Expected transaction rows | 299 |
 | Columns | 10 |
-| Expected transaction rows | 300 |
-| Date range | 2025 |
+| Date range | 2009-2035 |
 | Reference tables | Customers, Products, Cities |
 
 ## 3. Data Quality Assessment
