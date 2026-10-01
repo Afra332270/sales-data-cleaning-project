@@ -20,14 +20,14 @@ below:
 | --- | ---: | --- |
 | Transaction_ID | 0 | Pass |
 | Customer_ID | 0 | Pass |
-| Customer_Name | 4 | Fail |
-| City | 3 | Fail |
+| Customer_Name | 6 | Fail |
+| City | 6 | Fail |
 | Product | 0 | Pass |
 | Quantity | 2 | Fail |
-| Unit_Price | 1 | Fail |
-| Total_Amount | 4 | Fail |
-| Payment_Method | 5 | Fail |
-| Last_Updated | 2 | Fail |
+| Unit_Price | 0 | Pass |
+| Total_Amount | 0 | Pass |
+| Payment_Method | 3 | Fail |
+| Last_Updated | 4 | Fail |
 
 
 ### 3.2 Uniqueness
